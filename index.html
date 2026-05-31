@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phạm Mạnh Quân | Backend Developer</title>
+  <meta
+    name="description"
+    content="Trang giới thiệu cá nhân của Phạm Mạnh Quân, Backend Developer."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="wrapper">
+    <section class="layout">
+      <aside class="primary-side">
+        <p class="eyebrow" id="role">Backend Developer</p>
+        <h1 id="name">Phạm Mạnh Quân</h1>
+        <p class="intro" id="headline">
+          Sinh viên CNTT định hướng backend, tập trung vào Node.js, database và xây dựng API cho các sản phẩm có tính ứng dụng thực tế.
+        </p>
+
+        <div class="actions">
+          <a class="button primary" id="cvLink" href="Pham-Manh-Quan-TopCV.vn-310526.102009.pdf" target="_blank" rel="noreferrer">
+            Xem CV
+          </a>
+          <a class="button secondary" id="githubLink" href="https://github.com/quanmp2811" target="_blank" rel="noreferrer">
+            GitHub
+          </a>
+        </div>
+
+        <div class="meta" id="contactInfo"></div>
+      </aside>
+
+      <section class="content-side">
+        <article class="plain-section">
+          <p class="section-label">Giới thiệu</p>
+          <h2>Tóm tắt</h2>
+          <p id="summary">
+            Tôi đang tìm môi trường ổn định để phát triển chuyên môn backend, đặc biệt với Node.js, database và API, đồng thời đóng góp vào những sản phẩm có giá trị sử dụng cao.
+          </p>
+        </article>
+
+        <article class="plain-section">
+          <p class="section-label">Kỹ năng</p>
+          <h2>Công nghệ chính</h2>
+          <div class="tags compact-tags" id="skills"></div>
+        </article>
+
+        <article class="plain-section">
+          <p class="section-label">Dự án</p>
+          <h2>Dự án nổi bật</h2>
+          <div class="project-list compact-projects" id="projects"></div>
+        </article>
+      </section>
+
+      <aside class="photo-side">
+        <div class="photo-frame">
+          <img
+            class="avatar"
+            alt="Ảnh đại diện Phạm Mạnh Quân"
+            src="anh.png"
+          >
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
