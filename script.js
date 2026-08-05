@@ -5,7 +5,7 @@ const profile = {
     "Backend Developer tập trung vào Node.js, database và xây dựng API cho các sản phẩm có tính ứng dụng thực tế.",
   summary:
     "Tôi đang tìm môi trường ổn định để phát triển chuyên môn backend, đặc biệt với Node.js, database và API, đồng thời đóng góp vào những sản phẩm có giá trị sử dụng cao.",
-  cvUrl: "https://www.topcv.vn/xem-cv/AQAEV1FVBgNRVFNRCFFWVgRUAlxTAVYEDwdWBA1ded",
+  cvUrl: "./Pham-Manh-Quan.pdf",
   githubUrl: "https://github.com/quanmp2811",
   contacts: [
     { label: "Email", value: "phamquan28112004@gmail.com" },
